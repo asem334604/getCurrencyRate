@@ -27,7 +27,7 @@ document.getElementById('convert').addEventListener('click', () => {
             amount.value * res.data[toCurrency.value] / res.data[fromCurrency.value];
         document.getElementById('result').innerHTML =
             `<div style="background-color: ivory;
-                         color: seagreen;
+                         color: green;
                          font-size: xxx-large;
                          font-weight: bolder;
                          padding: 50px;
